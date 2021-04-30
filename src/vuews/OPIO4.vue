@@ -51,13 +51,13 @@
          <th>Отделение</th>
        </tbody>
        <tr v-for="(info, index) in data" :key="index">
-         <td>{{ info[3] }}</td>
-         <!-- <td>{{ info[0].slice(0,7) }}</td> -->
-         <td>{{ info[1] }}</td>
          <td>{{ info[2] }}</td>
+         <!-- <td>{{ info[0].slice(0,7) }}</td> -->
+         <td>{{ info[3] }}</td>
+         <td>{{ info[1] }}</td>
+         <td>{{ info[4] }}</td>
          <td>{{ info[5] }}</td>
          <td>{{ info[6] }}</td>
-         <td>{{ info[7] }}</td>
        </tr>
      </table>
   </div>
